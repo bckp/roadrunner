@@ -1,6 +1,6 @@
 <?php
 
-namespace Mallgroup\RoadRunner\Middlewares;
+namespace Bckp\RoadRunner\Middlewares;
 
 use JsonException;
 use Nette\Http\IResponse;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mallgroup\RoadRunner\Http;
+namespace Bckp\RoadRunner\Http;
 
 use Nette;
 use Nette\Http\IResponse;

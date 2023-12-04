@@ -1,6 +1,6 @@
 <?php
 
-namespace Mallgroup\RoadRunner;
+namespace Bckp\RoadRunner;
 
 use Nette\Utils\Arrays;
 

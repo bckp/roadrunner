@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Mallgroup\RoadRunner;
+namespace Bckp\RoadRunner;
 
-use Mallgroup\RoadRunner\Http\IRequest;
-use Mallgroup\RoadRunner\Http\IResponse;
+use Bckp\RoadRunner\Http\IRequest;
+use Bckp\RoadRunner\Http\IResponse;
 use Nette;
 use Nette\Application\AbortException;
 use Nette\Application\ApplicationException;

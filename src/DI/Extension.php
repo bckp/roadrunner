@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Mallgroup\RoadRunner\DI;
+namespace Bckp\RoadRunner\DI;
 
-use Mallgroup\RoadRunner\Events;
-use Mallgroup\RoadRunner\Http\Request;
-use Mallgroup\RoadRunner\Http\RequestFactory;
-use Mallgroup\RoadRunner\Http\Response;
-use Mallgroup\RoadRunner\Middlewares\NetteInitializeMiddleware;
-use Mallgroup\RoadRunner\NetteApplicationHandler;
-use Mallgroup\RoadRunner\PsrChain;
-use Mallgroup\RoadRunner\RoadRunner;
+use Bckp\RoadRunner\Events;
+use Bckp\RoadRunner\Http\Request;
+use Bckp\RoadRunner\Http\RequestFactory;
+use Bckp\RoadRunner\Http\Response;
+use Bckp\RoadRunner\Middlewares\NetteInitializeMiddleware;
+use Bckp\RoadRunner\NetteApplicationHandler;
+use Bckp\RoadRunner\PsrChain;
+use Bckp\RoadRunner\RoadRunner;
 use Nette;
 use Nette\DI\ContainerBuilder;
 use Nette\DI\Definitions\ServiceDefinition;

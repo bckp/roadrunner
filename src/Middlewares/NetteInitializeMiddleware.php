@@ -1,9 +1,9 @@
 <?php
 
-namespace Mallgroup\RoadRunner\Middlewares;
+namespace Bckp\RoadRunner\Middlewares;
 
-use Mallgroup\RoadRunner\Http\IRequest;
-use Mallgroup\RoadRunner\Http\IResponse;
+use Bckp\RoadRunner\Http\IRequest;
+use Bckp\RoadRunner\Http\IResponse;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;

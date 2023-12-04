@@ -1,22 +1,22 @@
 MallGroup/Roadrunner
 ======
 
-[![build](https://github.com/mallgroup/roadrunner/actions/workflows/main.yml/badge.svg)](https://github.com/mallgroup/roadrunner/actions/workflows/main.yml)
-[![Coverage Status](https://coveralls.io/repos/github/mallgroup/roadrunner/badge.svg?branch=main)](https://coveralls.io/github/mallgroup/roadrunner?branch=main)
-[![Downloads this Month](https://img.shields.io/packagist/dm/mallgroup/roadrunner.svg)](https://packagist.org/packages/mallgroup/roadrunner)
-[![Latest stable](https://img.shields.io/packagist/v/mallgroup/roadrunner.svg)](https://packagist.org/packages/mallgroup/roadrunner)
-[![Coverage Status](https://coveralls.io/repos/github/mallgroup/roadrunner/badge.svg?branch=master)](https://coveralls.io/github/mallgroup/roadrunner?branch=master)
-[![License](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://github.com/mallgroup/roadrunner/blob/master/license.md)
+[![build](https://github.com/bckp/roadrunner/actions/workflows/main.yml/badge.svg)](https://github.com/bckp/roadrunner/actions/workflows/main.yml)
+[![Coverage Status](https://coveralls.io/repos/github/bckp/roadrunner/badge.svg?branch=main)](https://coveralls.io/github/bckp/roadrunner?branch=main)
+[![Downloads this Month](https://img.shields.io/packagist/dm/bckp/roadrunner.svg)](https://packagist.org/packages/bckp/roadrunner)
+[![Latest stable](https://img.shields.io/packagist/v/bckp/roadrunner.svg)](https://packagist.org/packages/bckp/roadrunner)
+[![Coverage Status](https://coveralls.io/repos/github/bckp/roadrunner/badge.svg?branch=master)](https://coveralls.io/github/bckp/roadrunner?branch=master)
+[![License](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://github.com/bckp/roadrunner/blob/master/license.md)
 
 Integration of [RoadRunner](https://roadrunner.dev) into Nette Framework
 
 Installation
 ------------
 
-The best way to install Mallgroup/Roadrunner is using [Composer](http://getcomposer.org/):
+The best way to install Bckp/Roadrunner is using [Composer](http://getcomposer.org/):
 
 ```sh
-$ composer require mallgroup/roadrunner
+$ composer require bckp/roadrunner
 ```
 
 Then you need to create small update to your app.
@@ -26,7 +26,7 @@ Then you need to create small update to your app.
 Create new RR config, in our case it is roadrunner.neon
 ```neon
 extensions:
-    roadrunner: Mallgroup\RoadRunner\DI\Extension
+    roadrunner: Bckp\RoadRunner\DI\Extension
 
 roadrunner:
     showExceptions: %debugMode%
@@ -59,7 +59,7 @@ And finally, we need our entrypoint that will be runned by RoadRunner, we call t
 <?php
 declare(strict_types=1);
 
-use Mallgroup\RoadRunner\RoadRunner;
+use Bckp\RoadRunner\RoadRunner;
 use App\Bootstrap;
 
 define('ROOT_DIR', dirname(__DIR__));

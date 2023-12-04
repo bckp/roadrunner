@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Mallgroup\RoadRunner\Middlewares;
+namespace Bckp\RoadRunner\Middlewares;
 
 use Nette\Http\IResponse;
 use Nette\Http\Session;

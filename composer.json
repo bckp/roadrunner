@@ -1,5 +1,5 @@
 {
-	"name": "mallgroup/roadrunner",
+	"name": "bckp/roadrunner",
 	"type": "library",
 	"description": "Integration of Nette Framework into RoadRunner",
 	"keywords": [
@@ -11,9 +11,9 @@
 	],
 	"authors": [
 		{
-			"name": "Mall Group",
-			"email": "radovan.kepak@mallgroup.com",
-			"homepage": "https://mallgroup.com"
+			"name": "Radovan Kepak",
+			"email": "radovan@kepakovi.cz",
+			"homepage": "https://www.kepakovi.cz"
 		}
 	],
 	"require": {
@@ -49,13 +49,16 @@
 	},
 	"minimum-stability": "stable",
 	"support": {
-		"email": "radovan.kepak@mallgroup.com",
-		"issues": "https://github.com/mallgroup/roadrunner/issues"
+		"email": "radovan@kepakovi.cz",
+		"issues": "https://github.com/bckp/roadrunner/issues"
 	},
 	"autoload": {
 		"psr-4": {
-			"Mallgroup\\RoadRunner\\": "src/"
+			"Bckp\\RoadRunner\\": "src/"
 		}
+	},
+	"replace": {
+		"mallgroup/roadrunner": "*"
 	},
 	"config": {
 		"allow-plugins": {

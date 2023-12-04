@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mallgroup\RoadRunner\Http;
+namespace Bckp\RoadRunner\Http;
 
 use Nette\Http\IResponse as NetteResponse;
 

@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
-use Mallgroup\RoadRunner\Http\IResponse;
-use Mallgroup\RoadRunner\Http\Response;
+use Bckp\RoadRunner\Http\IResponse;
+use Bckp\RoadRunner\Http\Response;
 use Nette\InvalidArgumentException;
 use Nette\Utils\DateTime;
 use Tester\Assert;

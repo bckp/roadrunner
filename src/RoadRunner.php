@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mallgroup\RoadRunner;
+namespace Bckp\RoadRunner;
 
 use Psr\Http\Server\RequestHandlerInterface;
 use Spiral\RoadRunner\Http\PSR7WorkerInterface;
